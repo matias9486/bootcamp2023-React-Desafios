@@ -1,0 +1,16 @@
+.fotoCV{
+    width: 200px;    
+}
+
+.fotoContainer{        
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .fotoContainer{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);        
+    }
+}

@@ -1,0 +1,17 @@
+:root{
+    --text-grey: #696969;
+}
+
+.textGrey{
+    color: var(--text-grey);
+}
+
+i{    
+    font-size: 20px;
+    color: var(--text-grey);
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-grey);
+}

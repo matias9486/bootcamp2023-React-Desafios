@@ -1,0 +1,40 @@
+:root{
+    --clr-blue: #1c4c7c; /*#204c7c*/
+    --clr-grey: #eaebeb;
+    --clr-white: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.bgBlue{
+    background-color: var(--clr-blue);
+    color: #ffffff;
+}
+
+.bgGrey{
+    background-color: var(--clr-grey);
+}
+
+.bgWhite{
+    background-color: var(--clr-white);
+}
+
+.textGrey{
+    color: #696969;
+}
+
+hr{    
+    width: 90px;    
+    height: 6px;      
+    opacity: 1;     
+    background-color: #696969;              
+    border: none;
+    margin: 0 0 10px;
+}
+
+@media (min-width: 768px) {
+    .containerDesplazado{
+        padding-top: 90px;
+    }
+}
