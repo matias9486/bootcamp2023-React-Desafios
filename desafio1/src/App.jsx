@@ -1,5 +1,5 @@
 import './App.css'
-import { MiCVComponent } from './cv/MiCVComponent'
+import { MiCVComponent } from './components/MiCV/MiCVComponent'
 
 function App() {
   

@@ -1,4 +1,4 @@
-import fotoPerfil from '../assets/fotoPerfil.jpg';
+import fotoPerfil from '../../assets/fotoPerfil.jpg';
 import thisStyles from './FotoComponent.module.css'
 
 export const FotoComponent = () => {

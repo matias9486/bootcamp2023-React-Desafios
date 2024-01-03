@@ -1,10 +1,10 @@
 import thisStyles from './MiCVComponent.module.css';
-import EducacionComponent from './EducacionComponent.jsx'
-import { DatosPersonalesComponent } from './DatosPersonalesComponent.jsx';
-import { ExperienciaLaboralComponent } from './ExperienciaLaboralComponent.jsx';
-import { SobreMiComponent } from './SobreMiComponent.jsx';
-import { FotoComponent } from './FotoComponent.jsx';
-import {datosPersonales, sobreMi, educacion, experienciaLaboral} from '../utils/data.js';
+import EducacionComponent from '../Educacion/EducacionComponent.jsx'
+import {DatosPersonalesComponent} from '../DatosPersonales/DatosPersonalesComponent.jsx';
+import { ExperienciaLaboralComponent } from '../ExperienciaLaboral/ExperienciaLaboralComponent.jsx';
+import { SobreMiComponent } from '../SobreMi/SobreMiComponent.jsx';
+import { FotoComponent } from '../Foto/FotoComponent.jsx';
+import {datosPersonales, sobreMi, educacion, experienciaLaboral} from '../../utils/data.js';
 
 export const MiCVComponent = () => {    
     
